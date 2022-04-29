@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    <!-- <h1>Welcome To The Static Web</h1>
+    <button class="btn btn-danger"></button> -->
+    {{!-- below code is for partial of navbar component --}}
+    {{>navbar}}
+    <!-- header part -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="images/5.jpg" alt="sanu" class="img-fluid" title="santanu jana">
+                        </figure>
+                     </div>
+                    <div class="col-md-6 col-12 main_header_left ">
+                        <p>Welcome To My Weather App</p>
+                        <h1>I Am A second Year Student Pursuing B.tech In <span class="text_clr">Computer Science and Engneering</span> , I Am Learning DSA And Web Development</h1>
+                        <a href="https://www.linkedin.com/in/santanu-jana-241119201/" target="_blank"><button>My Linkdin</button></a>
+                    </div>
+                    <!-- right side -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+   {{>footer}}
+</body>
+
+</html>
