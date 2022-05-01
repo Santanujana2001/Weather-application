@@ -5,11 +5,13 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 //public static path 
-// console.log(path.join(__dirname,"../weather/public"));
+console.log(path.join(__dirname, "templates/views"));
+console.log(path.join(__dirname, "templates/partials"));
 const static_path = path.join(__dirname, "../weather/public");
 
-const template_path = path.join(__dirname, "../weather/templates/views");
-const partials_path = path.join(__dirname, "../weather/templates/partials");
+// const template_path = path.join(__dirname, "../weather/templates/views");
+const template_path = path.join(__dirname, "templates/views");
+const partials_path = path.join(__dirname, "templates/partials");
 app.set('view engine', 'hbs'); // adding index,about html in the form of hbs to set it dynamically
 app.set('views',template_path);
 hbs.registerPartials(partials_path);
