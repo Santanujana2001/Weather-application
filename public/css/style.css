@@ -7,6 +7,15 @@
     font-family: 'Piazzolla', serif;
 }
 
+/* .gg:hover{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.gg:hover {
+  color: rgb(0, 242, 255);
+}
 :root {
     --main-bg: #1e272e;
     --main-color: #0097e6;
@@ -83,10 +92,10 @@ body {
 }
 
 .main_header_left p:hover {
-    color: rgb(9, 185, 35);
+    color: #009dff;
 }
 
-main_header_left h1 {
+.main_header_left h1 {
     font-size: 4rem;
     margin: 1rem 0 4rem 0;
     text-transform: capitalize;
@@ -113,10 +122,11 @@ main_header_left h1 {
     text-transform: uppercase;
     box-shadow: 0 8px 6px -6px #1e272e;
     outline: none;
+    border: 1px solid #40a2ab;
 }
 
 .main_header_left button:hover {
-    box-shadow: 0 8px 6px -6px #ff0000;
+    box-shadow: 0 8px 6px -6px #40a2ab;
 }
 
 /* .main_header_right figure img{
